@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(188, 126, 229);
+}
+.encabezado{
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    border-radius: 80%;
+    width: 180px;
+    height: 180px;
+    border: 10px solidrgb(12, 12, 12);
+    margin-top: 15px;
+}
+.cad{
+    display: flex;
+    justify-content: space-between;
+
+}
+.t{
+    width:2rem;
+    height:2rem;
+    background-color:#921095;
+}
+.cadena:hover {
+    transform: scale(2.2);
+    z-index: 10; /* Asegúrate de que se muestre por encima */
+}
+.c{
+   
+    background-color:#271025;  
+    color: aliceblue;
+    text-align: center;
+    
+}
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #9e69da; /* Lila oscuro */
+    color: rgb(10, 13, 13);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn:hover {
+    background-color:rgb(126, 54, 146); /* Lila más oscuro */
+    transform: scale(2.01);
+}

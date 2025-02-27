@@ -1,0 +1,117 @@
+body{
+    background-image: url('./fondo.jpeg');
+   
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 19rem;
+    border-radius: 70%;
+    padding: 30px 30px 30px;
+    
+}
+
+.logo {
+    border-radius: 80%;
+    width: 180px;
+    height: 180px;
+    border: 10px solidrgb(12, 12, 12);
+    margin-top: 15px;
+}
+.mission, .vision {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 2%;
+    padding: 10px;
+    background-color: rgba(161, 97, 177, 0.5);
+    border-radius: 10px;
+    border: 6px solid rgb(10, 2, 2);
+    padding: 15px;
+
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.8s;
+} 
+
+.misionvision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mission h2, .vision h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.pro{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}  
+.productos{
+    
+    font-family: helvetica;
+    font-size: 6rem;
+    font-style:italic;
+    text-align:center;
+    text-transform: lowercase;
+    font-style:italic;
+    text-align:center;
+    text-transform: lowercase;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:rgb(160, 144, 179); /* Lila oscuro */
+    color: rgb(42, 4, 56);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.productos:hover {
+    background-color:rgb(126, 54, 146); /* Lila más oscuro */
+    transform: scale(1.05);
+}
+.imagenes {
+    display: flex;
+   align-items:flex-start; 
+    justify-content:space-between;
+
+}
+.sk:hover {
+    transform: scale(1.2);
+    z-index: 10; /* Asegúrate de que se muestre por encima */
+}
+.caja1{
+    padding: 20px;
+    width: 19rem;
+    height: 19rem;
+    border: 3px solid black;
+}
+
+
+.caja2{
+    padding: 20px;
+    width: 19rem;
+    height: 19rem;
+    border: 3px solid black;
+    font-size: 1rem;
+} 
+
+.imagenes center{
+    display: flex;
+    justify-content: space-between;
+    border: 18px;
+}

@@ -1,0 +1,96 @@
+
+body{
+justify-content:center;
+background-color: rgb(235, 222, 240);
+}
+
+.primera{
+
+	disPlay:flex;
+	justify-content:space-between;
+	border:18px solid rgb(235, 222, 240);
+	
+}
+.segunda{
+
+	disPlay:flex;
+	justify-content:space-between;
+	border:18px solid rgb(235, 222, 240);
+	background-color:rgb(235, 222, 240);
+	
+}
+.tercera{
+	disPlay:flex;
+	justify-content:space-between;
+	border:18px solid rgb(235, 222, 240);
+	background-color:rgb(235, 222, 240);
+}
+.logo{
+	border-radius: 80%;
+    width: 180px;
+    height: 180px;
+    border: 10px solidrgb(12, 12, 12);
+    margin-top: 15px;
+
+}	
+.encabezado{
+	display: flex;
+	justify-content: center;
+}
+.caja11{
+	width: 18.86rem;
+	height: 19rem;
+	background-color:black;
+	border: 18px solid rgb(235, 222, 240);
+	color:white;
+
+}
+
+
+.text{
+    width:19rem;
+    height:8rem;
+    margin-right:2rem;
+    border: 4px solid black;
+    background-color:white;
+font-size:4rem;
+
+}
+.was{
+    width:9.36rem;
+    height:9.36rem;
+    font-size:18rem;
+    border: 4px solid black;
+    disPlay:flex;
+    justify-content:center;
+    align-items:flex-start;
+
+}
+.NUEVO{
+    width:2rem;
+    height:2rem;
+    background-color:#8b5294;
+}
+
+.super{
+    width:2rem;
+    height:2rem;
+    background-color:#8b5294;
+}
+.gotas{
+    width:2rem;
+    height:2rem;
+    background-color:#8b5294;
+}
+.luce{
+width:2rem;
+    height:2rem;
+    background-color:#8b5294;
+}
+
+.grande{
+
+    width:2rem;
+    height:2rem;
+    background-color:#8b5294;
+}
